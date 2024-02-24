@@ -8,7 +8,7 @@ void buildScript2(char **lines, Script *script);
 
 void buildScript2(char **lines, Script *script);
 
-/**
+ *
  * buildScript - fills the fields of a script instance of the Script structure.
  * It read the whole input (file / redirection) in one string, and slices it
  * into multiple commands in script->lines
